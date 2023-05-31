@@ -41,3 +41,30 @@ In addition, our project structure should be
             main.js
         package.json
         package-lock.json
+
+## Running our application
+
+Inside the index.html we just call the /dist/main.js, so you can run this project without the complexity 
+of project folder
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NuBank Clone Project</title>
+        <link rel="icon" type="image/ico" sizes="16x16" href="./assets/favicon.ico">
+
+        <link rel="stylesheet" href="app.css">
+
+    </head>
+    <body>
+        <div id="root"></div>
+    </body>
+
+    <script type='module' src="./dist/main.js"></script>
+
+    </html>
+
+In addition, the app.css should me added in the reader to ensure a minimum UI for the application. 
